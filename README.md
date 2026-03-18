@@ -1,5 +1,5 @@
 # HealthNorth Mobile
-![Capture de l'application](docs/captures/capture-accueil.pngcapture-accueil.png)
+![Capture de l'application](docs/captures/capture-accueil.png)
 
 Application mobile développée en Dart/Flutter dans le cadre de mon projet de BTS SIO option SLAM.
 
