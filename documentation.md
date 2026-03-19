@@ -18,6 +18,10 @@ Elle est utilisée par deux interfaces :
 
 ## 🔗 2. Accès au code source
 
+Une collection Postman est fournie pour tester les endpoints de l’API :
+
+ `docs/requettes api/healthnorth_mobile.postman_collection.json`
+
 L’API est incluse dans le projet web.
 
  **Lien GitHub du projet :**
