@@ -31,6 +31,9 @@ Elle permet à un patient disposant d’un compte web d’accéder à ses inform
 
 ##  API
 
+Une collection Postman est fournie :
+
+ `docs/requettes api/healthnorth_mobile.postman_collection.json`
 L’application mobile consomme une API REST développée dans le projet web associé.
 
  Accès au projet API :
