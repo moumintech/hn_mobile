@@ -54,7 +54,6 @@ Ce dossier contient :
  C’est dans ce dossier que se trouve l’essentiel du travail de développement.
 
 
-
 ###  Documentation et ressources
 
 Les éléments de conception et de preuve sont regroupés dans :
@@ -69,7 +68,7 @@ Ce dossier contient :
 * 🎨 maquettes de l’application
 * 📡 requêtes API
 * 📸 captures d’écran de l’application
-*     script sql ( fussion de la base de donné web et mobile)
+*     script sql ( fussion de la base de donné web et mobile) et des screenshots des requêtte api
 
  Accès direct :
  **https://github.com/moumintech/hn_mobile/tree/main/docs**
