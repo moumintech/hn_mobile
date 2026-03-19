@@ -1,39 +1,46 @@
 # HealthNorth Mobile
 ![Capture de l'application](docs/captures/capture-accueil.png)
 
-Application mobile développée en Dart/Flutter dans le cadre de mon projet de BTS SIO option SLAM.
-
-Cette application permet à un patient d’accéder à certaines informations de santé depuis une interface mobile.
-
-## Fonctionnalités principales
-
-- Connexion utilisateur
-- Authentification par token
-- Consultation du profil patient
-- Affichage de la liste des rendez-vous
-- Affichage de la liste des prescriptions
-- Consultation des rappels
-- Interface mobile organisée par écrans
-
-## Technologies utilisées
-
-- Dart
-- Flutter
-- API REST
-- PHP
-- MySQL
-- Git / GitHub
 
 
+Application mobile développée en **Dart / Flutter** dans le cadre du BTS SIO – option SLAM.
 
-## API utilisée
+Elle permet à un patient disposant d’un compte web d’accéder à ses informations de santé depuis une interface mobile.
 
-Cette application mobile communique avec une API REST développée dans le cadre du projet web associé.
+---
 
-Lien vers le dépôt du projet web : https://github.com/moumintech/healthnorth-app
+##  Fonctionnalités
 
-## Installation
+* 🔐 Authentification par token
+* 👤 Consultation du profil patient
+* 📅 Affichage des rendez-vous
+* 💊 Consultation des prescriptions
+* ⏰ Consultation des rappels
+* ⚙️ Consultation des options
+
+---
+
+##  Technologies
+
+* Dart / Flutter
+* API REST (PHP)
+* MySQL
+* Git / GitHub
+
+---
+
+##  API
+
+L’application mobile consomme une API REST développée dans le projet web associé.
+
+ Accès au projet API :
+https://github.com/moumintech/healthnorth-app/tree/main/api
+
+---
+
+##  Installation
 
 ```bash
 flutter pub get
 flutter run
+```

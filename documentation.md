@@ -21,7 +21,7 @@ Elle est utilisée par deux interfaces :
 L’API est incluse dans le projet web.
 
  **Lien GitHub du projet :**
- `https://github.com/moumintech/healthnorth-app`
+ `https://github.com/moumintech/healthnorth-app/tree/main/api`
 
 Dans ce dépôt, l’API se trouve dans :
 
