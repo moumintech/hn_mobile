@@ -1,77 +1,166 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
+# ==============================================================
+# .gitignore — HealthNorth Mobile
+# Flutter / Dart / Android / iOS / PHP / MySQL / VS Code / Windows
+# ==============================================================
 
-# IntelliJ related
+# ---------------------------------------------------------------
+# SECRETS & CREDENTIALS (NE JAMAIS PUBLIER)
+# ---------------------------------------------------------------
+# Fichiers de configuration avec identifiants réels
+**/config/database.php
+config.php
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+
+# Clés de signature Android (keystore)
+*.jks
+*.keystore
+key.properties
+android/key.properties
+
+# Certificats et clés privées
+*.pem
+*.p12
+*.pfx
+*.key
+
+# Google Services (contient des clés Firebase)
+google-services.json
+GoogleService-Info.plist
+
+# ---------------------------------------------------------------
+# FLUTTER / DART / PUB
+# ---------------------------------------------------------------
+.dart_tool/
+.pub-cache/
+.pub/
+.packages
+**/doc/api/
+
+# Build artifacts
+/build/
+/coverage/
+
+# Symbolication & obfuscation
+app.*.symbols
+app.*.map.json
+
+# Flutter generated
+.flutter-plugins
+.flutter-plugins-dependencies
+flutter_export_environment.sh
+Generated.xcconfig
+GeneratedPluginRegistrant.*
+.metadata
+
+# ---------------------------------------------------------------
+# ANDROID
+# ---------------------------------------------------------------
+**/android/.gradle/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# Fichier local machine (contient les chemins SDK locaux)
+android/local.properties
+
+# Gradle caches
+**/.gradle/
+**/gradle/wrapper/gradle-wrapper.jar
+
+# ---------------------------------------------------------------
+# iOS / macOS
+# ---------------------------------------------------------------
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/Generated.xcconfig
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# ---------------------------------------------------------------
+# PHP / MySQL / Apache / WAMP
+# ---------------------------------------------------------------
+# Credentials base de données
+api/config/database.php
+db_test.php
+test_login_debug.php
+tmp_*.php
+debug_*.php
+*_debug.php
+
+# Fichiers de dump SQL sensibles
+*.sql.bak
+*.dump
+*_backup.sql
+*_sauvegarde.sql
+hn_web*.sql
+
+# Logs Apache / PHP
+*.log
+logs/
+log/
+error_log
+
+# Sessions PHP
+sessions/
+sess_*
+
+# Uploads utilisateurs (données personnelles patients)
+uploads/
+storage/
+files/
+documents/
+
+# ---------------------------------------------------------------
+# IDE — IntelliJ / Android Studio
+# ---------------------------------------------------------------
 *.iml
 *.ipr
 *.iws
 .idea/
+!.idea/runConfigurations/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-
-# Flutter/Dart
-.dart_tool/
-.packages
-.pub/
-build/
-
-# IDE
-.idea/
+# ---------------------------------------------------------------
+# IDE — VS Code
+# ---------------------------------------------------------------
 .vscode/
+!.vscode/extensions.json
 
-# Android / iOS
-**/android/.gradle
-**/ios/Pods/
-**/ios/.symlinks/
-**/ios/Flutter/.last_build_id
+# ---------------------------------------------------------------
+# IDE — Xcode
+# ---------------------------------------------------------------
+xcuserdata/
 
-# Environment
-.env
-.env.local
-.env.production
-
-# Logs
-*.log
-
-# OS
+# ---------------------------------------------------------------
+# OS — Windows / macOS / Linux
+# ---------------------------------------------------------------
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
 
-build/
-.dart_tool/
-.idea/
+# Crash dumps JVM
+hs_err_pid*.log
+replay_pid*.log
+
+# ---------------------------------------------------------------
+# DIVERS
+# ---------------------------------------------------------------
+*.swp
+*.swo
+*.tmp
+*.cache
+*~
+.history
+.svn/
+.atom/
+.buildlog/
+migrate_working_dir/
